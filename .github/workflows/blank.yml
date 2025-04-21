@@ -1,0 +1,10 @@
+name: Hello Luca
+
+on: [push]
+
+jobs:
+  say-hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "Ciao Luca, ora sei un GitHub Actions Hero! 🚀"
